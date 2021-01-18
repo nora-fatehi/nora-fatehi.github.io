@@ -1,0 +1,242 @@
+:root {
+    --custom-WMX2: 0;
+    --custom-TRMG: 0;
+    --custom-BLDA: 0;
+    --custom-TRMD: 0;
+    --custom-TRMC: 0;
+    --custom-SKLD: 0;
+    --custom-TRML: 0;
+    --custom-SKLA: 0;
+    --custom-TRMF: 0;
+    --custom-TRMK: 0;
+    --custom-BLDB: 0;
+    --custom-TRMB: 0;
+    --custom-TRMA: 0;
+    --custom-SKLB: 0;
+    --custom-TRME: 0;
+
+    --custom-phon: 0;
+    --custom-phtw: 0;
+    --custom-phth: 0;
+}
+
+
+@font-face {
+    font-family: "flex";
+    /*  src: url(fonts/DecovarAlpha-VF.ttf);*/
+    src: url(fonts/Phase-AGX.ttf);
+
+}
+
+/*GENERAL-----------------------------------------------------*/
+
+body {
+    background: white;
+    color: black;
+    z-index: 1000;
+    font-family: "flex";
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+
+p {
+    font-size: 1.5em;
+    margin: 10px;
+
+}
+
+h1{
+
+    font-size: 9em;
+    margin-bottom: 20px;
+
+}
+
+.moving{
+        font-family: "flex";
+font-weight: 100;
+     font-variation-settings: "WMX2"var(--custom-WMX2), "TRMG"var(--custom-TRMG),
+        "BLDA"var(--custom-BLDA), "TRMD"var(--custom-TRMD),
+        "TRMC"var(--custom-TRMC), "SKLD"var(--custom-SKLD),
+        "TRML"var(--custom-TRML), "SKLA"var(--custom-SKLA),
+        "TRMF"var(--custom-TRMF), "TRMK"var(--custom-TRMK),
+        "BLDB"var(--custom-BLDB), "TRMB"var(--custom-TRMB),
+        "TRMA"var(--custom-TRMA), "SKLB"var(--custom-SKLB),
+     
+       "TRME"var(--custom-TRME), "phon"var(--custom-phon), "phtw"var(--custom-phtw), "phth"var(--custom-phth);
+       
+
+
+}
+
+/*HOMEPAGE-----------------------------------------------------*/
+
+#homepage {
+    display: absolute;
+    margin: auto;
+    padding: 4vw;
+    margin-top: 5vw;
+    text-align: center;
+
+}
+
+
+#titre {
+    left: 40%;
+    position: relative;
+    padding-top: 10px;
+    font-size: 3em;
+    cursor: pointer;
+
+}
+#titre:hover{
+    left: 40%;
+    position: relative;
+    padding-top: 10px;
+    font-size: 3em;
+    cursor: pointer;
+    color:  #2EE59D;
+
+
+}
+
+
+
+.header {
+    padding: 0px;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+
+input#username {
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 40px;
+
+    }
+
+ #enter {
+ padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 40px;
+    width: 9vw;
+    font-size: 1.8em;
+    margin-left: 1vw;
+    }
+
+/*MESSAGES-----------------------------------------------------*/
+
+
+
+#messages {
+    overflow: auto;
+    position: absolute;
+    margin: auto;
+    margin-top: 10vh;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 3vw;
+    left: 26%;
+    width: 40%;
+}
+
+#typer {
+    left: 26vw;
+    margin-bottom: 0px;
+    margin-top: 70vh;
+    padding-top: 0vh;
+    display: block;
+    position: fixed;
+
+}
+
+
+input#textinput {
+    font-size: 1.5em;
+    width: 34vw;
+    text-align: left;
+    padding-left: 2vw;
+    outline: none;
+}
+
+input {
+    outline: none;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 30px;
+    border: solid black 2px;
+    background-color: white;
+    color: black;
+    font-family: "flex";
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+
+button {
+
+    background-color: black;
+    border: solid black;
+    border: none;
+    color: white;
+    font-family: "flex";
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 1.5em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+
+}
+
+button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: black;
+    transform: translateY(-7px);
+}
+
+#send {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 9vw;
+}
+
+
+
+
+#textinput {
+    font-size: 1.5em;
+    position: relative;
+    text-align: center;
+    font-variation-settings: "WMX2"var(--custom-WMX2), "TRMG"var(--custom-TRMG),
+        "BLDA"var(--custom-BLDA), "TRMD"var(--custom-TRMD),
+        "TRMC"var(--custom-TRMC), "SKLD"var(--custom-SKLD),
+        "TRML"var(--custom-TRML), "SKLA"var(--custom-SKLA),
+        "TRMF"var(--custom-TRMF), "TRMK"var(--custom-TRMK),
+        "BLDB"var(--custom-BLDB), "TRMB"var(--custom-TRMB),
+        "TRMA"var(--custom-TRMA), "SKLB"var(--custom-SKLB),
+        "TRME"var(--custom-TRME), "phon"var(--custom-phon), "phtw"var(--custom-phtw), "phth"var(--custom-phth);
+}

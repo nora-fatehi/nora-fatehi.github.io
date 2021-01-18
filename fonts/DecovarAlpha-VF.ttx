@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.16">
+
+  <fvar>
+
+    <!-- Inline -->
+    <Axis>
+      <AxisTag>BLDA</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>256</AxisNameID>
+    </Axis>
+
+    <!-- Shearded -->
+    <Axis>
+      <AxisTag>TRMD</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>257</AxisNameID>
+    </Axis>
+
+    <!-- Rounded Slab -->
+    <Axis>
+      <AxisTag>TRMC</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>258</AxisNameID>
+    </Axis>
+
+    <!-- Stripes -->
+    <Axis>
+      <AxisTag>SKLD</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>259</AxisNameID>
+    </Axis>
+
+    <!-- Worm Terminal -->
+    <Axis>
+      <AxisTag>TRML</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>260</AxisNameID>
+    </Axis>
+
+    <!-- Inline Skeleton -->
+    <Axis>
+      <AxisTag>SKLA</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>261</AxisNameID>
+    </Axis>
+
+    <!-- Open Inline Terminal -->
+    <Axis>
+      <AxisTag>TRMF</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>262</AxisNameID>
+    </Axis>
+
+    <!-- Inline Terminal -->
+    <Axis>
+      <AxisTag>TRMK</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>263</AxisNameID>
+    </Axis>
+
+    <!-- Worm -->
+    <Axis>
+      <AxisTag>BLDB</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>264</AxisNameID>
+    </Axis>
+
+    <!-- Weight -->
+    <Axis>
+      <AxisTag>WMX2</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>265</AxisNameID>
+    </Axis>
+
+    <!-- Flared -->
+    <Axis>
+      <AxisTag>TRMB</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>266</AxisNameID>
+    </Axis>
+
+    <!-- Rounded -->
+    <Axis>
+      <AxisTag>TRMA</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>267</AxisNameID>
+    </Axis>
+
+    <!-- Worm Skeleton -->
+    <Axis>
+      <AxisTag>SKLB</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>268</AxisNameID>
+    </Axis>
+
+    <!-- Slab -->
+    <Axis>
+      <AxisTag>TRMG</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>269</AxisNameID>
+    </Axis>
+
+    <!-- Bifurcated -->
+    <Axis>
+      <AxisTag>TRME</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>0.0</MinValue>
+      <DefaultValue>0.0</DefaultValue>
+      <MaxValue>1000.0</MaxValue>
+      <AxisNameID>270</AxisNameID>
+    </Axis>
+
+    <!-- Default -->
+    <NamedInstance flags="0x0" subfamilyNameID="271">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Open -->
+    <NamedInstance flags="0x0" subfamilyNameID="272">
+      <coord axis="BLDA" value="1000.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Worm -->
+    <NamedInstance flags="0x0" subfamilyNameID="273">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="1000.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Checkered -->
+    <NamedInstance flags="0x0" subfamilyNameID="274">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="1000.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Checkered Reverse -->
+    <NamedInstance flags="0x0" subfamilyNameID="275">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="1000.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Striped -->
+    <NamedInstance flags="0x0" subfamilyNameID="276">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="500.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Rounded -->
+    <NamedInstance flags="0x0" subfamilyNameID="277">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="1000.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Flared -->
+    <NamedInstance flags="0x0" subfamilyNameID="278">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="1000.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Flared Open -->
+    <NamedInstance flags="0x0" subfamilyNameID="279">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="1000.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="1000.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Rounded Slab -->
+    <NamedInstance flags="0x0" subfamilyNameID="280">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="1000.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Sheared -->
+    <NamedInstance flags="0x0" subfamilyNameID="281">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="1000.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Bifurcated -->
+    <NamedInstance flags="0x0" subfamilyNameID="282">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="1000.0"/>
+    </NamedInstance>
+
+    <!-- Inline -->
+    <NamedInstance flags="0x0" subfamilyNameID="283">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="500.0"/>
+      <coord axis="TRMF" value="500.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Slab -->
+    <NamedInstance flags="0x0" subfamilyNameID="284">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="0.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="1000.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Contrast -->
+    <NamedInstance flags="0x0" subfamilyNameID="285">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="0.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="1000.0"/>
+      <coord axis="TRMB" value="0.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Fancy -->
+    <NamedInstance flags="0x0" subfamilyNameID="286">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="0.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="0.0"/>
+      <coord axis="SKLA" value="1000.0"/>
+      <coord axis="TRMF" value="0.0"/>
+      <coord axis="TRMK" value="0.0"/>
+      <coord axis="BLDB" value="0.0"/>
+      <coord axis="WMX2" value="1000.0"/>
+      <coord axis="TRMB" value="1000.0"/>
+      <coord axis="TRMA" value="0.0"/>
+      <coord axis="SKLB" value="0.0"/>
+      <coord axis="TRMG" value="0.0"/>
+      <coord axis="TRME" value="0.0"/>
+    </NamedInstance>
+
+    <!-- Mayhem -->
+    <NamedInstance flags="0x0" subfamilyNameID="287">
+      <coord axis="BLDA" value="0.0"/>
+      <coord axis="TRMD" value="0.0"/>
+      <coord axis="TRMC" value="750.0"/>
+      <coord axis="SKLD" value="0.0"/>
+      <coord axis="TRML" value="250.0"/>
+      <coord axis="SKLA" value="1000.0"/>
+      <coord axis="TRMF" value="250.0"/>
+      <coord axis="TRMK" value="250.0"/>
+      <coord axis="BLDB" value="1000.0"/>
+      <coord axis="WMX2" value="750.0"/>
+      <coord axis="TRMB" value="500.0"/>
+      <coord axis="TRMA" value="500.0"/>
+      <coord axis="SKLB" value="1000.0"/>
+      <coord axis="TRMG" value="750.0"/>
+      <coord axis="TRME" value="500.0"/>
+    </NamedInstance>
+  </fvar>
+
+</ttFont>

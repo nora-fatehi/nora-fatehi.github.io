@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
+    <link rel="icon" type="image/png" href="icon.png" />
+    <meta charset="UTF-8">
+    <title> CHITCHAT1✨ </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <!-- Require the peer dependencies of facemesh. -->
+    <script src="https://unpkg.com/@tensorflow/tfjs-core@2.1.0/dist/tf-core.js"></script>
+    <script src="https://unpkg.com/@tensorflow/tfjs-converter@2.1.0/dist/tf-converter.js"></script>
+    <!-- You must explicitly require a TF.js backend if you're not using the tfs union bundle. -->
+    <script src="https://unpkg.com/@tensorflow/tfjs-backend-wasm@2.1.0/dist/tf-backend-wasm.js"></script>
+    <!-- Alternatively you can use the WebGL backend: <script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@2.1.0/dist/tf-backend-webgl.js"></script> 
+
+       onclick="document.getElementById('textt').value = ''">
+ -->
+    <script src="p5app.js"></script>
+</head>
+
+<body style="background: black color=white">
+    <header id="header" class="header">
+
+        <h1 class="header" id="titre">C(H)ARACTER</h1>
+
+    </header><!-- /header -->
+    <!------------------------------------------------------ contact -->
+    <div id="homepage">
+        <h1 class="moving">c(h)aracter</h1>
+        <p> a chat service that allows you to be in touch with you emotion during your conversations</p>
+        <input autocomplete="off" spellcheck="false" onfocus=" this.value=''" type=" text" id="username" value="write your name">
+        <button type="button" id="enter"> enter </button>
+    </div>
+    </div>
+    <!------------------------------------------------------ contact -->
+    <div id="chatroom">
+        <div id="messages">
+            <p></p>
+        </div>
+        <div id="typer">
+            <input  " autocomplete="off" spellcheck="false" id="textinput" onfocus="this.value=''" type="text" value="write something">
+            <button type
+            ="button" id="send"> send</button> </div>
+    </div>
+    <!------------------------------------------------------ contact -->
+</body>
+
+</html>
