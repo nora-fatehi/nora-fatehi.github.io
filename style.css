@@ -18,6 +18,124 @@
     --custom-phon: 0;
     --custom-phtw: 0;
     --custom-phth: 0;
+
+    --mychat-phon: 0;
+    --mychat-phtw: 0;
+    --mychat-phth: 0;
+
+    --mychat1-phon: 0;
+    --mychat1-phtw: 0;
+    --mychat1-phth: 0;
+
+
+    --mychat2-phon: 0;
+    --mychat2-phtw: 0;
+    --mychat2-phth: 0;
+
+
+    --mychat3-phon: 0;
+    --mychat3-phtw: 0;
+    --mychat3-phth: 0;
+
+    --mychat4-phon: 0;
+    --mychat4-phtw: 0;
+    --mycha4t-phth: 0;
+
+    --mychat5-phon: 0;
+    --mychat5-phtw: 0;
+    --mychat5-phth: 0;
+
+    --mychat6-phon: 0;
+    --mychat6-phtw: 0;
+    --mychat6-phth: 0;
+
+    --mychat7-phon: 0;
+    --mychat7-phtw: 0;
+    --mychat7-phth: 0;
+
+
+    --mychat8-phon: 0;
+    --mychat8-phtw: 0;
+    --mychat8-phth: 0;
+
+    --mychat9-phon: 0;
+    --mychat9-phtw: 0;
+    --mychat9-phth: 0;
+
+    --mychat10-phon: 0;
+    --mychat10-phtw: 0;
+    --mychat10-phth: 0;
+
+
+    --mychat10-phon: 0;
+    --mychat10-phtw: 0;
+    --mychat10-phth: 0;
+
+
+    --mychat11-phon: 0;
+    --mychat11-phtw: 0;
+    --mychat11-phth: 0;
+
+
+    --mychat12-phon: 0;
+    --mychat12-phtw: 0;
+    --mychat12-phth: 0;
+
+
+
+    --yourchat1-phon: 0;
+    --yourchat1-phtw: 0;
+    --yourchat1-phth: 0;
+
+
+    --yourchat2-phon: 0;
+    --yourchat2-phtw: 0;
+    --yourchat2-phth: 0;
+
+
+    --yourchat3-phon: 0;
+    --yourchat3-phtw: 0;
+    --yourchat3-phth: 0;
+
+    --yourchat4-phon: 0;
+    --yourchat4-phtw: 0;
+    --yourcha4t-phth: 0;
+
+    --yourchat5-phon: 0;
+    --yourchat5-phtw: 0;
+    --yourchat5-phth: 0;
+
+    --yourchat6-phon: 0;
+    --yourchat6-phtw: 0;
+    --yourchat6-phth: 0;
+
+    --yourchat7-phon: 0;
+    --yourchat7-phtw: 0;
+    --yourchat7-phth: 0;
+
+
+    --yourchat8-phon: 0;
+    --yourchat8-phtw: 0;
+    --yourchat8-phth: 0;
+
+    --yourchat9-phon: 0;
+    --yourchat9-phtw: 0;
+    --yourchat9-phth: 0;
+
+    --yourchat10-phon: 0;
+    --yourchat10-phtw: 0;
+    --yourchat10-phth: 0;
+
+
+    --yourchat11-phon: 0;
+    --yourchat11-phtw: 0;
+    --yourchat11-phth: 0;
+
+
+    --yourchat12-phon: 0;
+    --yourchat12-phtw: 0;
+    --yourchat12-phth: 0;
+
 }
 
 
@@ -49,26 +167,26 @@ p {
 
 }
 
-h1{
+h1 {
 
     font-size: 9em;
     margin-bottom: 20px;
 
 }
 
-.moving{
-        font-family: "flex";
-font-weight: 100;
-     font-variation-settings: "WMX2"var(--custom-WMX2), "TRMG"var(--custom-TRMG),
+.moving {
+    font-family: "flex";
+    font-weight: 100;
+    font-variation-settings: "WMX2"var(--custom-WMX2), "TRMG"var(--custom-TRMG),
         "BLDA"var(--custom-BLDA), "TRMD"var(--custom-TRMD),
         "TRMC"var(--custom-TRMC), "SKLD"var(--custom-SKLD),
         "TRML"var(--custom-TRML), "SKLA"var(--custom-SKLA),
         "TRMF"var(--custom-TRMF), "TRMK"var(--custom-TRMK),
         "BLDB"var(--custom-BLDB), "TRMB"var(--custom-TRMB),
         "TRMA"var(--custom-TRMA), "SKLB"var(--custom-SKLB),
-     
-       "TRME"var(--custom-TRME), "phon"var(--custom-phon), "phtw"var(--custom-phtw), "phth"var(--custom-phth);
-       
+
+        "TRME"var(--custom-TRME), "phon"var(--custom-phon), "phtw"var(--custom-phtw), "phth"var(--custom-phth);
+
 
 
 }
@@ -93,13 +211,14 @@ font-weight: 100;
     cursor: pointer;
 
 }
-#titre:hover{
+
+#titre:hover {
     left: 40%;
     position: relative;
     padding-top: 10px;
     font-size: 3em;
     cursor: pointer;
-    color:  #2EE59D;
+    color: #2EE59D;
 
 
 }
@@ -121,17 +240,17 @@ input#username {
     text-align: center;
     margin-top: 40px;
 
-    }
+}
 
- #enter {
- padding: 20px;
+#enter {
+    padding: 20px;
     border-radius: 40px;
     text-align: center;
     margin-top: 40px;
     width: 9vw;
     font-size: 1.8em;
     margin-left: 1vw;
-    }
+}
 
 /*MESSAGES-----------------------------------------------------*/
 
@@ -225,7 +344,17 @@ button:hover {
 }
 
 
+.mychat {
 
+    font-variation-settings: "WMX2"var(--custom-WMX2), "TRMG"var(--custom-TRMG),
+        "BLDA"var(--custom-BLDA), "TRMD"var(--custom-TRMD),
+        "TRMC"var(--custom-TRMC), "SKLD"var(--custom-SKLD),
+        "TRML"var(--custom-TRML), "SKLA"var(--custom-SKLA),
+        "TRMF"var(--custom-TRMF), "TRMK"var(--custom-TRMK),
+        "BLDB"var(--custom-BLDB), "TRMB"var(--custom-TRMB),
+        "TRMA"var(--custom-TRMA), "SKLB"var(--custom-SKLB),
+        "TRME"var(--custom-TRME), "phon"var(--mychat-phon), "phtw"var(--mychat-phtw), "phth"var(--mychat-phth);
+}
 
 #textinput {
     font-size: 1.5em;

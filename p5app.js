@@ -27,12 +27,18 @@ let isRecording;
 var otherConnected = false;
 var homepage = true;
 
+var counter = 0;
+var yourcounter = 0;
+
+
 let data2;
 var textInput;
 var person1counter = 0;
 var person1texts = [];
 var username;
 var sourire = false;
+let diff;
+let currentsettings;
 
 const detectionOptions = {
     withLandmarks: true,
@@ -121,44 +127,103 @@ function Enter(e) {
 }
 
 function checkwords() {
-    // textInput = document.getElementById("textinput").value;
-    // if ((textInput.includes("haha") == true) ||
-    //     (textInput.includes("hahaha") == true) ||
-    //     (textInput.includes("lol") == true) ||
-    //     (textInput.includes("lol") == true) ||
-    //     (textInput.includes("HAHAH") == true) ||
-    //     (textInput.includes("lmao") == true) ||
-    //     (textInput.includes("funny") == true))
-    // {
-    //     if (sourire == false) {
-    //         document.getElementById("send").disabled = true;
-    //         document.getElementById("send").style.opacity = "50%";
-    //     }  if (sourire == true) {
-    //         console.log("VAZY ChaKAl")
-    //         document.getElementById("send").disabled = false;
-    //         document.getElementById("send").style.opacity = "100%";
-
-    //     }
-
-    // } else {
-
-    //     document.getElementById("send").disabled = false;
-    //     document.getElementById("send").style.opacity = "100%";
-
-
-    // }
 
 
 }
 
 function sendChat() {
+
+
+    if (counter < 11) {
+        counter++;
+    } else { counter = 1; }
+    console.log(counter)
     textInput = document.getElementById("textinput").value;
+    currentsettings = diff;
 
     if (document.getElementById("send").disabled == false) {
         var toSend = document.createElement("p"); // Create a <p> element
         toSend.innerHTML = "@" + username + " : " + textInput; // Insert text
-        toSend.className = "myclass";
+        // toSend.className = "mychat";
         toSend.style.color = "red";
+
+
+        if (counter == 1) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat-phon), "phtw"var(--mychat-phtw), "phth"var(--mychat-phth)') // works
+            root.style.setProperty('--mychat-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat-phth', currentsettings);
+        }
+        if (counter == 2) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat2-phon), "phtw"var(--mychat2-phtw), "phth"var(--mychat2-phth)') // works
+            root.style.setProperty('--mychat2-phtw', currentsettings - 10);
+            root.style.setProperty('--mycha2-phth', currentsettings);
+        }
+
+
+        if (counter == 3) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat3-phon), "phtw"var(--mychat3-phtw), "phth"var(--mychat3-phth)') // works
+            root.style.setProperty('--mycha3t-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat3-phth', currentsettings);
+        }
+
+
+
+        if (counter == 4) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat4-phon), "phtw"var(--mychat4-phtw), "phth"var(--mychat4-phth)') // works
+            root.style.setProperty('--mychat4-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat4-phth', currentsettings);
+        }
+
+
+        if (counter == 5) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat5-phon), "phtw"var(--mychat5-phtw), "phth"var(--mychat45hth)') // works
+            root.style.setProperty('--mychat5-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat5-phth', currentsettings);
+        }
+        if (counter == 6) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat6-phon), "phtw"var(--mychat6-phtw), "phth"var(--mychat6-phth)') // works
+            root.style.setProperty('--mychat6-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat6-phth', currentsettings);
+        }
+        if (counter == 7) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat7-phon), "phtw"var(--mychat7-phtw), "phth"var(--mychat7-phth)') // works
+            root.style.setProperty('--mychat7-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat7-phth', currentsettings);
+        }
+        if (counter == 8) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat8-phon), "phtw"var(--mychat8-phtw), "phth"var(--mychat8-phth)') // works
+            root.style.setProperty('--mychat8-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat8-phth', currentsettings);
+        }
+        if (counter == 9) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat9-phon), "phtw"var(--mychat9-phtw), "phth"var(--mychat9-phth)') // works
+            root.style.setProperty('--mychat9-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat9-phth', currentsettings);
+        }
+        if (counter == 10) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat10-phon), "phtw"var(--mychat10-phtw), "phth"var(--mychat10-phth)') // works
+            root.style.setProperty('--mychat10-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat10-phth', currentsettings);
+        }
+
+
+
+        if (counter == 11) {
+            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat11-phon), "phtw"var(--mychat11-phtw), "phth"var(--mychat11-phth)') // works
+            root.style.setProperty('--mycha11-phtw', currentsettings - 10);
+            root.style.setProperty('--mychat11-phth', currentsettings);
+        }
+
+        // if (counter == 12) {
+        //            toSend.style.setProperty('font-variation-settings', '"phon"var(--mychat21-phon), "phtw"var(--mychat12-phtw), "phth"var(--mychat12-phth)') // works
+        //            root.style.setProperty('--mycha12-phtw', currentsettings - 10);
+        //            root.style.setProperty('--mychat12-phth', currentsettings);
+        //        }
+
+
+
+
+
         document.getElementById("messages").appendChild(toSend); // Append <p> to <div> with id="myDIV"
         document.getElementById('textinput').value = '';
         updateScroll();
@@ -167,6 +232,7 @@ function sendChat() {
 
             'persontext': textInput,
             'personusername': username,
+            'fontsettings': currentsettings,
         });
 
         // this.send('DRAWINGS/' + this.UID, null);
@@ -215,10 +281,85 @@ function addDatabaseListener() {
                 if (person != UID) {
                     var persontext = (people[person].data.persontext);
                     var personusername = (people[person].data.personusername);
+                    var settings = (people[person].data.fontsettings);
 
                     var received = document.createElement("p"); // Create a <p> element
                     received.innerHTML = "@" + personusername + " : " + persontext; // Insert text
                     received.className = "myclass";
+
+                    if (yourcounter < 11) {
+                        yourcounter++;
+                    } else { yourcounter = 1; }
+
+
+
+
+                    if (yourcounter == 1) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat-phon), "phtw"var(--yourchat-phtw), "phth"var(--yourchat-phth)') // works
+                        root.style.setProperty('--yourchat-phtw', settings - 10);
+                        root.style.setProperty('--yourchat-phth', settings);
+                    }
+                    if (yourcounter == 2) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat2-phon), "phtw"var(--yourchat2-phtw), "phth"var(--yourchat2-phth)') // works
+                        root.style.setProperty('--yourchat2-phtw', settings - 10);
+                        root.style.setProperty('--yourcha2-phth', settings);
+                    }
+
+
+                    if (yourcounter == 3) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat3-phon), "phtw"var(--yourchat3-phtw), "phth"var(--yourchat3-phth)') // works
+                        root.style.setProperty('--yourcha3t-phtw', settings - 10);
+                        root.style.setProperty('--yourchat3-phth', settings);
+                    }
+
+
+
+                    if (yourcounter == 4) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat4-phon), "phtw"var(--yourchat4-phtw), "phth"var(--yourchat4-phth)') // works
+                        root.style.setProperty('--yourchat4-phtw', settings - 10);
+                        root.style.setProperty('--yourchat4-phth', settings);
+                    }
+
+
+                    if (yourcounter == 5) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat5-phon), "phtw"var(--yourchat5-phtw), "phth"var(--yourchat45hth)') // works
+                        root.style.setProperty('--yourchat5-phtw', settings - 10);
+                        root.style.setProperty('--yourchat5-phth', settings);
+                    }
+                    if (yourcounter == 6) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat6-phon), "phtw"var(--yourchat6-phtw), "phth"var(--yourchat6-phth)') // works
+                        root.style.setProperty('--yourchat6-phtw', settings - 10);
+                        root.style.setProperty('--yourchat6-phth', settings);
+                    }
+                    if (yourcounter == 7) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat7-phon), "phtw"var(--yourchat7-phtw), "phth"var(--yourchat7-phth)') // works
+                        root.style.setProperty('--yourchat7-phtw', settings - 10);
+                        root.style.setProperty('--yourchat7-phth', settings);
+                    }
+                    if (yourcounter == 8) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat8-phon), "phtw"var(--yourchat8-phtw), "phth"var(--yourchat8-phth)') // works
+                        root.style.setProperty('--yourchat8-phtw', settings - 10);
+                        root.style.setProperty('--yourchat8-phth', settings);
+                    }
+                    if (yourcounter == 9) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat9-phon), "phtw"var(--yourchat9-phtw), "phth"var(--yourchat9-phth)') // works
+                        root.style.setProperty('--yourchat9-phtw', settings - 10);
+                        root.style.setProperty('--yourchat9-phth', settings);
+                    }
+                    if (yourcounter == 10) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat10-phon), "phtw"var(--yourchat10-phtw), "phth"var(--yourchat10-phth)') // works
+                        root.style.setProperty('--yourchat10-phtw', settings - 10);
+                        root.style.setProperty('--yourchat10-phth', settings);
+                    }
+
+
+
+                    if (yourcounter == 11) {
+                        received.style.setProperty('font-variation-settings', '"phon"var(--yourchat11-phon), "phtw"var(--yourchat11-phtw), "phth"var(--yourchat11-phth)') // works
+                        root.style.setProperty('--yourcha11-phtw', currentsettings - 10);
+                        root.style.setProperty('--yourchat11-phth', currentsettings);
+                    }
+
                     document.getElementById("messages").appendChild(received); // Append <p> to <div> with id="myDIV"
 
                     updateScroll();
@@ -348,6 +489,8 @@ function drawPart(feature, closed) { /// CHAQUE FRAME
     const top = feature[14]._y;
     const moyenne = (left + right) / 2;
     //  const diff =((top-moyenne)*200)+200;
+    diff = map((top - moyenne), -1, 3, 0, 50);
+
 
     //CHANGE HOMEPAGE TYPO
     if (homepage == true) {
@@ -395,6 +538,8 @@ function drawPart(feature, closed) { /// CHAQUE FRAME
         (textInput.includes("nice") == true) ||
         (textInput.includes("cool") == true) ||
         (textInput.includes("fun") == true) ||
+        (textInput.includes("fine") == true) ||
+
         (textInput.includes("great") == true) ||
         (textInput.includes("best") == true) ||
         (textInput.includes("amazing") == true) ||
