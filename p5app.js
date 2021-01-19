@@ -49,11 +49,7 @@ function setup() {
     canvas.position(0, 0);
     canvas.style("z-index", "-1");
     // canvas.style("background", "black");
-    navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
-        /* use the stream */
-    }).catch(function(err) {
-        /* handle the error */
-    });
+
     // WEBCAM
     video = createCapture(VIDEO);
     // video.size(1280, 960);
@@ -101,12 +97,16 @@ function EnterChatroom() {
         'personusername': username,
     });
 
+    setTimeout(send('PEOPLE/' + UID + '/', null), 100);
+
+
 }
 /////SUBMIT TEXT 
 function Enter(e) {
     if ((e.key == "Enter")) {
         if (homepage == true) {
-            EnterChatroom();
+            //EnterChatroom();
+            //send('PEOPLE/' + UID + '/', null);
         }
 
         if (homepage == false) {
@@ -172,7 +172,9 @@ function sendChat() {
         // this.send('DRAWINGS/' + this.UID, null);
 
 
-        setTimeout(function() { send('PEOPLE/' + UID + '/', null); }, 1000);
+        setTimeout(function() {
+            send('PEOPLE/' + UID + '/', null);
+        }, 1000);
 
 
     }
@@ -241,7 +243,7 @@ function addDatabaseListener() {
             //console.log(people[person]);
             if (mouth) {
 
-                if (mouth != UID) {
+                if (mouth != "jpp" + UID && homepage == false) {
 
                     var mouthpoints = (mouths[mouth].data.personmouth);
 
@@ -255,11 +257,9 @@ function addDatabaseListener() {
                         textSize(5);
                         vertex(x, y);
                     }
-                    if (closed === true) {
-                        endShape(CLOSE);
-                    } else {
-                        endShape();
-                    }
+
+                    endShape(CLOSE);
+
 
                 }
             }
@@ -284,19 +284,23 @@ function addDatabaseListener() {
 /////////////////////////////////////////////// DRAWING FACEAPI POINTS//////////////
 
 
-
 function drawPart(feature, closed) { /// CHAQUE FRAME
 
     //SEND MY MOUTH POINTS/////////
-    send('PEOPLEMOUTH/' + UID + '/', {
+    setInterval(send('PEOPLEMOUTH/' + 'jpp' + UID + '/', {
         'personmouth': feature,
-    });
+    }), 100);
+
+
+    //send('PEOPLEMOUTH/' +'jpp'+ UID +'/', null);
+
+
 
 
     // send('PERSON1MOUTH/', {
     //     mouth1: feature,
     // });
-    background(255);
+    //background(255);
 
     //DRAW MY SMILE ////////////////////////////////////
     beginShape();
@@ -383,8 +387,24 @@ function drawPart(feature, closed) { /// CHAQUE FRAME
     textInput = document.getElementById("textinput").value;
 
     if ((textInput.includes("haha") == true) ||
-        (textInput.includes("hahaha") == true) ||
-        (textInput.includes("lol") == true) ||
+        (textInput.includes("hah") == true) ||
+        (textInput.includes("HAHA") == true) ||
+        (textInput.includes("wow") == true) ||
+        (textInput.includes("love") == true) ||
+        (textInput.includes("like") == true) ||
+        (textInput.includes("nice") == true) ||
+        (textInput.includes("cool") == true) ||
+        (textInput.includes("fun") == true) ||
+        (textInput.includes("great") == true) ||
+        (textInput.includes("best") == true) ||
+        (textInput.includes("amazing") == true) ||
+        (textInput.includes("wonderful") == true) ||
+        (textInput.includes("incredible") == true) ||
+        (textInput.includes("laugh") == true) ||
+        (textInput.includes("hihi") == true) ||
+        (textInput.includes("mdr") == true) ||
+        (textInput.includes("ptdr") == true) ||
+        (textInput.includes("good") == true) ||
         (textInput.includes("lol") == true) ||
         (textInput.includes("HAHAH") == true) ||
         (textInput.includes("lmao") == true) ||
@@ -410,6 +430,8 @@ function drawPart(feature, closed) { /// CHAQUE FRAME
         document.getElementById("send").disabled = false;
         document.getElementById("send").style.opacity = "100%";
     }
+
+
 
 }
 
